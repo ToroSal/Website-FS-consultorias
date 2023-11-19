@@ -1,0 +1,121 @@
+:root {
+  --bs-font-sans-serif: "Libre+Bodoni", Arapey;
+
+  --primary-color: white;
+  /* Updated value */
+  --secondary-color: #252525;
+  --tertiary-color: #00BF63;
+  --font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+
+.navbar {
+  background-color: --primary-color;
+}
+
+.navbar-nav .nav-link {
+  font-size: 21px;
+  /* Adjust the font size as needed */
+  font-weight: bold;
+  /* Make the text bold */
+
+}
+
+.navbar-toggler {
+  order: -1
+}
+
+.navbar-brand {
+  margin-left: auto;
+  /* Push the brand/logo to the left */
+  margin-right: auto;
+  /* Center the brand/logo */
+  display: table;
+  /* Centering trick */
+}
+
+body {
+  background-color: var(--primary-color);
+  font-size: var(--font-size);
+}
+
+.pb-2 {
+  font-weight: 700;
+  --bs-text-opacity: 1;
+  color: var(--bs-emphasis-color) !important;
+}
+
+.card-cover .text-white h3 {
+  color:  --secondary-color;
+}
+
+section{
+  padding: 2rem;
+}
+.Home{
+  display: flex;
+  align-items:baseline;
+
+  min-height: 100vh;
+  background:url('front.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.Home .content{
+  max-width:  50rem;
+
+
+}
+
+.Home .content h2{
+  font-size: 2rem;
+  color:  #00BF63;
+  font-weight: 600;
+  
+  
+}
+
+.Home .content span{
+  font-size: 3rem;
+  color: white;
+  line-height: 1.5;
+  
+}
+.sp{
+  display: flex;
+  align-items:baseline;
+
+  min-height: 10vh;
+  background:#00BF63;
+  background-size: cover;
+  background-position: center;
+
+}
+h3.fs-2.text-body-emphasis {
+  color: #00BF63 !important;
+  font-weight: 400;
+ 
+}
+
+.btn-secondary{
+  background:white;
+  font-style: color=black
+
+  ;
+}
+#contactenos .lead {
+  font-weight: 600;
+  color: white;
+  font-size: 2rem;
+}
